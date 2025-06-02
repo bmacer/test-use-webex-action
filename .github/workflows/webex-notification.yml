@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Webex Message
-        uses: bmacer/test-cisco-webex-action@v1
+        uses: bmacer/test-cisco-webex-action@v1.1
         with:
           webex-token: ${{ secrets.WEBEX_TOKEN }}
           room-id: ${{ secrets.WEBEX_ROOM_ID }}
